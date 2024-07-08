@@ -1,0 +1,148 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+
+/* Nav Bar */
+
+.site-title {
+    color: white;
+    font-size: 1.1428571429em;
+    margin-bottom: 5px;
+
+}
+
+
+.site-description  {
+    color: #bfc1c8;
+    font-size: 0.7142857143em;
+}
+
+
+.nav-item a{
+    color: white;
+}
+
+.navbar-nav .nav-item a{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+    margin-right: 30px;
+
+}
+.navbar-nav .nav-link.nav-home {
+    color: #009ad8; 
+    border: 2px solid #009ad8 ;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+
+
+/* Header */
+
+.hero {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+
+.find-location  input{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+.find-butt{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+   
+    background: #009ad8;
+   border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+/* body */
+
+
+.forecast-header{
+   background: rgba(0, 0, 0, 0.1)
+}
+
+
+.location1{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.num1{
+    font-size: 4.4285714286rem;
+    margin-right: 30px;
+}
+
+.custom{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.num{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+small{
+    font-size: 1.1428571429em;
+}
+
+/* footer */
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+
+.colophon{
+    color: RGB(191, 193, 200);
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    
+  
+
+}
+
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}

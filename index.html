@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid d-flex justify-content-between align-items-center p-5 ms-5">
+            <a class="navbar-brand d-flex align-items-center " href="#">
+                <img src="Images/logo.png" alt="Logo">
+                <div class="logo-type ms-2 p-2">
+                    <h1 class="site-title h5 mb-0">Weather</h1>
+                    <small class="site-description h6">tagline goes here</small>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 me-5 ">
+                    <li class="nav-item">
+                        <a class="nav-link nav-home active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Camera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header  -->
+
+
+    <div class="hero" data-bg-image="images/banner.png" style="background-image: url(Images/banner.png);">
+        <div class="container">
+            <form class="find-location position-relative ">
+                <input type="text" placeholder="Find your location..." id="search">
+                <button onkeyup="displayProduct()" class=" find-butt  ">Find</button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <!-- body -->
+
+    <div class="container py-5 ">
+        <div class="row gy-3" id="myData">
+          
+        </div>
+    </div>
+    
+
+
+        <!-- Footer -->
+
+
+
+        <footer class="site-footer">
+
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form class="find-location position-relative w-100">
+                            <input type="email" placeholder="Enter Your Email to Subscribe..." id="search">
+                            <button class=" find-butt  ">Subscribe</button>
+
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 ">
+                        <div class="social-links ps-4 pe-4 text-center mt-3  ">
+                            <a href="#"><i class="fa-brands fa-facebook-f w-25"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <p class="colophon pt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+
+
+
+        </footer>
+
+
+    </div>
+
+
+
+   
+    <!-- JS -->
+
+<script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
